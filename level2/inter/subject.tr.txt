@@ -1,0 +1,17 @@
+Odev adi         : inter
+Beklenen dosyalar: inter.c
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+Iki karakter dizisi alan ve her ikisinde de gecen karakterleri, tekrarsiz ve
+birincide gorundukleri sirayla ekrana yazan bir program yaziniz.
+
+Cikti bir \n ile bitecektir.
+Arguman sayisi 2 degilse program sadece \n yazar.
+
+Ornekler:
+
+$>./inter "padinton" "paqefwtdjetyiytjneytjoeyjnejeyj" | cat -e
+padinto$
+$>./inter "rien" "cette phrase ne cache rien" | cat -e
+rien$

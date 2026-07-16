@@ -1,0 +1,10 @@
+"FOR PONY"
+"this        ...       is sparta, then again, maybe    not"
+"   "
+"a" "b"
+
+"  lorem,ipsum  "
+""
+"	leading tab"
+"single"
+"   trailing   "

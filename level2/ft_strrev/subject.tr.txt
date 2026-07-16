@@ -1,0 +1,12 @@
+Odev adi         : ft_strrev
+Beklenen dosyalar: ft_strrev.c
+Izin verilen fonk: 
+--------------------------------------------------------------------------------
+
+Bir karakter dizisini yerinde (in-place) ters ceviren bir fonksiyon yaziniz.
+
+Fonksiyon kendi parametresini dondurmelidir.
+
+Fonksiyonunuz su sekilde tanimlanmalidir:
+
+char	*ft_strrev(char *str);

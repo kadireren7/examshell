@@ -1,0 +1,26 @@
+Odev adi         : brackets
+Beklenen dosyalar: *.c *.h
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+brackets adinda, belirsiz sayida karakter dizisi alan bir program yaziniz. Her
+arguman icin, ifade dogru sekilde parantezlenmisse standart cikisa "OK" ve
+ardindan bir yeni satir, aksi halde "Error" ve ardindan bir yeni satir yazar.
+
+'Parantez' sayilan semboller sunlardir: parantezler '(' ve ')', kose
+parantezler '[' ve ']' ve suslu parantezler '{' ve '}'. Diger tum semboller
+basitce yok sayilir.
+
+Acilan bir parantez her zaman dogru kapanis parantezi ile ve dogru sirada
+kapatilmalidir. Hic parantez icermeyen bir dizi dogru parantezlenmis sayilir.
+
+Hic arguman yoksa program sadece bir yeni satir yazmalidir.
+
+Ornekler:
+
+$> ./brackets '(johndoe)' | cat -e
+OK$
+$> ./brackets '([)]' | cat -e
+Error$
+$> ./brackets | cat -e
+$

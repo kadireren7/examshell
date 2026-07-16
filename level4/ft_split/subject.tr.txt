@@ -1,0 +1,14 @@
+Odev adi         : ft_split
+Beklenen dosyalar: ft_split.c
+Izin verilen fonk: malloc
+--------------------------------------------------------------------------------
+
+Bir karakter dizisi alan, onu kelimelere bolen ve bunlari sonu NULL ile biten
+bir dizi dizisi olarak donduren bir fonksiyon yaziniz.
+
+"Kelime"; bosluk/tab/yeni satir karakterleri ya da dizinin basi/sonu ile
+sinirlanmis bir bolumdur.
+
+Fonksiyonunuz su sekilde tanimlanmalidir:
+
+char	**ft_split(char *str);

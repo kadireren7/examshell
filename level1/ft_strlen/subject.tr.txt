@@ -1,0 +1,10 @@
+Odev adi         : ft_strlen
+Beklenen dosyalar: ft_strlen.c
+Izin verilen fonk: 
+--------------------------------------------------------------------------------
+
+Bir karakter dizisinin uzunlugunu donduren bir fonksiyon yaziniz.
+
+Fonksiyonunuz su sekilde tanimlanmalidir:
+
+int	ft_strlen(char *str);

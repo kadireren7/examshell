@@ -1,0 +1,20 @@
+Odev adi         : reverse_bits
+Beklenen dosyalar: reverse_bits.c
+Izin verilen fonk: 
+--------------------------------------------------------------------------------
+
+Bir bayt alan, onu bit bit ters ceviren (ornekteki gibi) ve sonucu donduren
+bir fonksiyon yaziniz.
+
+Fonksiyonunuz su sekilde tanimlanmalidir:
+
+unsigned char	reverse_bits(unsigned char octet);
+
+Ornek:
+
+  1 bayt
+_____________
+ 0100  0001
+     ||
+     \/
+ 1000  0010

@@ -1,0 +1,18 @@
+Odev adi         : epur_str
+Beklenen dosyalar: epur_str.c
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+Bir karakter dizisi alan ve bu diziyi kelimeler arasinda tam olarak bir bosluk
+olacak, basinda ve sonunda bosluk veya tab bulunmayacak sekilde, ardindan bir
+\n ile ekrana yazan bir program yaziniz.
+
+"Kelime"; bosluk/tab karakterleri ya da dizinin basi/sonu ile sinirlanmis bir
+bolumdur.
+
+Arguman sayisi 1 degilse veya yazilacak kelime yoksa program \n yazar.
+
+Ornek:
+
+$> ./epur_str " seulement          la c'est      plus dur " | cat -e
+seulement la c'est plus dur$

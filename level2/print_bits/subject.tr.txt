@@ -1,0 +1,13 @@
+Odev adi         : print_bits
+Beklenen dosyalar: print_bits.c
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+Bir bayt alan ve onu SONUNDA YENI SATIR OLMADAN ikilik tabanda yazan bir
+fonksiyon yaziniz.
+
+Fonksiyonunuz su sekilde tanimlanmalidir:
+
+void	print_bits(unsigned char octet);
+
+Ornek: print_bits fonksiyonuna 2 verirseniz "00000010" yazacaktir.

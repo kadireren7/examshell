@@ -1,0 +1,7 @@
+"abc"
+"My horse is Amazing."
+"AkjhZ zLKIJz , 23y "
+
+""
+"a" "b"
+"nopqrstuvwxyzABCDEFGHIJKLM"

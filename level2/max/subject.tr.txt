@@ -1,0 +1,13 @@
+Odev adi         : max
+Beklenen dosyalar: max.c
+Izin verilen fonk: 
+--------------------------------------------------------------------------------
+
+Asagidaki fonksiyonu yaziniz:
+
+int		max(int* tab, unsigned int len);
+
+Birinci parametre bir int dizisi, ikincisi dizideki eleman sayisidir.
+
+Fonksiyon dizide bulunan en buyuk sayiyi dondurur.
+Dizi bos ise fonksiyon 0 dondurur.

@@ -1,0 +1,10 @@
+Odev adi         : ft_strdup
+Beklenen dosyalar: ft_strdup.c
+Izin verilen fonk: malloc
+--------------------------------------------------------------------------------
+
+strdup fonksiyonunun davranisini taklit ediniz (man strdup).
+
+Fonksiyonunuz su sekilde tanimlanmalidir:
+
+char	*ft_strdup(char *src);

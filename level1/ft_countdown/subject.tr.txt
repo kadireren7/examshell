@@ -1,0 +1,12 @@
+Odev adi         : ft_countdown
+Beklenen dosyalar: ft_countdown.c
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+Tum rakamlari azalan sirada, ardindan bir yeni satir ile ekrana yazan bir
+program yaziniz.
+
+Ornek:
+
+$> ./ft_countdown | cat -e
+9876543210$

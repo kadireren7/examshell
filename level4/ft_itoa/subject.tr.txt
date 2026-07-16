@@ -1,0 +1,12 @@
+Odev adi         : ft_itoa
+Beklenen dosyalar: ft_itoa.c
+Izin verilen fonk: malloc
+--------------------------------------------------------------------------------
+
+Bir int alan ve onu sonu null ile biten bir karakter dizisine donusturen bir
+fonksiyon yaziniz. Fonksiyon sonucu, kendinizin ayirmasi gereken bir char
+dizisinde dondurur.
+
+Fonksiyonunuz su sekilde tanimlanmalidir:
+
+char	*ft_itoa(int nbr);

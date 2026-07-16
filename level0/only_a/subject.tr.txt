@@ -1,0 +1,6 @@
+Odev adi         : only_a
+Beklenen dosyalar: only_a.c
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+Standart cikisa bir 'a' karakteri yazan bir program yaziniz.

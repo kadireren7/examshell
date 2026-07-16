@@ -1,0 +1,29 @@
+Odev adi         : cycle_detector
+Beklenen dosyalar: cycle_detector.c
+Izin verilen fonk: malloc, free
+--------------------------------------------------------------------------------
+
+cycle_detector adinda, arguman olarak bir const t_list *list alan ve verilen
+bagli listenin dongu icerip icermedigini kontrol eden bir fonksiyon
+olusturunuz.
+
+Dongu, bir bagli liste icinde dolasirken ayni baglantidan en az iki kez
+gecildiginde olusur.
+
+Bu fonksiyon verilen bagli liste icinde bir dongu tespit ederse 1, aksi halde
+0 dondurmelidir.
+
+Bu fonksiyon su sekilde prototiplenmelidir:
+
+	int        cycle_detector(const t_list *list)
+
+t_list tipi sudur:
+
+	typedef struct     s_list
+	{
+		int            data;
+		struct s_list  *next;
+	}                  t_list;
+
+Bu tip "list.h" adinda bir baslikta bulunacaktir. Kendi "list.h" dosyanizi
+teslim etmeniz gerekmez, degerlendirme sirasinda kendimizinkini kullanacagiz.

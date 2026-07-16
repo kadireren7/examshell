@@ -1,0 +1,34 @@
+Odev adi         : options
+Beklenen dosyalar: *.c *.h
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+Secenek olarak degerlendirilebilecek belirsiz sayida arguman alan ve bu
+secenekleri bayt gruplari halinde, ardindan bir yeni satir ile standart cikisa
+yazan bir program yaziniz.
+
+Secenek, '-' ile baslayan ve su karakterlerden olusabilen birden fazla karakter
+iceren bir argumandir: abcdefghijklmnopqrstuvwxyz
+
+Tum secenekler tek bir int icinde saklanir ve her secenek bu int'in bir bitini
+temsil eder; soyle saklanmalidir:
+
+00000000 00000000 00000000 00000000
+******zy xwvutsrq ponmlkji hgfedcba
+
+Programi argumansiz calistirmak veya '-h' bayragini etkinlestirmek, standart
+cikisa asagidaki orneklerde gosterildigi gibi bir kullanim bilgisi yazmalidir.
+
+Yanlis bir secenek "Invalid Option" ve ardindan bir yeni satir yazmalidir.
+
+Ornekler:
+$>./options
+options: abcdefghijklmnopqrstuvwxyz
+$>./options -abc -ijk
+00000000 00000000 00000111 00000111
+$>./options -z
+00000010 00000000 00000000 00000000
+$>./options -abc -hijk
+options: abcdefghijklmnopqrstuvwxyz
+$>./options -%
+Invalid Option

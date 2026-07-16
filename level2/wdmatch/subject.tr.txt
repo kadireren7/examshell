@@ -1,0 +1,18 @@
+Odev adi         : wdmatch
+Beklenen dosyalar: wdmatch.c
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+Iki karakter dizisi alan ve birinci dizinin, ikinci dizideki karakterlerle
+onlarin ikinci dizideki sirasina uyularak yazilip yazilamayacagini kontrol
+eden bir program yaziniz.
+
+Mumkunse program diziyi ardindan bir \n ile yazar, degilse sadece \n yazar.
+Arguman sayisi 2 degilse program bir \n yazar.
+
+Ornekler:
+
+$>./wdmatch "faya" "fgvvfdxcacpolhyghbreda" | cat -e
+faya$
+$>./wdmatch "faya" "fgvvfdxcacpolhyghbred" | cat -e
+$

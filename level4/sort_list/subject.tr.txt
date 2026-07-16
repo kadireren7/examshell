@@ -1,0 +1,30 @@
+Odev adi         : sort_list
+Beklenen dosyalar: sort_list.c
+Izin verilen fonk: 
+--------------------------------------------------------------------------------
+
+Asagidaki fonksiyonu yaziniz:
+
+t_list	*sort_list(t_list* lst, int (*cmp)(int, int));
+
+Bu fonksiyon, parametre olarak verilen listeyi cmp fonksiyon isaretcisini
+kullanarak uygulanacak siralamayi secip siralamali ve siralanmis listenin ilk
+elemanina bir isaretci dondurmelidir.
+
+Tekrar eden degerler korunmalidir.
+Girdiler her zaman tutarli olacaktir.
+
+list.h dosyasinda tarif edilen t_list tipini kullanmalisiniz. Bu dosyayi dahil
+etmelisiniz (#include "list.h") ancak teslim etmemelisiniz. Odevinizi
+derlerken kendi dosyamizi kullanacagiz.
+
+cmp olarak verilen fonksiyonlar, a ve b dogru sirada ise 0'dan farkli bir
+deger, aksi halde 0 dondurecektir.
+
+Ornegin cmp olarak kullanilan asagidaki fonksiyon listeyi artan sirada
+siralar:
+
+int ascending(int a, int b)
+{
+	return (a <= b);
+}

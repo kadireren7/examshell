@@ -1,0 +1,38 @@
+Odev adi         : check_mate
+Beklenen dosyalar: *.c, *.h
+Izin verilen fonk: write, malloc, free
+--------------------------------------------------------------------------------
+
+Arguman olarak bir satranc tahtasinin satirlarini alan ve Sah'inizin tehdit
+(check) altinda olup olmadigini kontrol eden bir program yaziniz.
+
+Satranc, uzerinde belirli taslar bulunan 8 kare uzunlugunda kare bir tahtada
+oynanir: Sah (King), Vezir (Queen), Fil (Bishop), At (Knight), Kale (Rook) ve
+Piyonlar (Pawns).
+Bu odev icin yalnizca Piyonlar, Filler, Kaleler ve Vezir ile... ve tabii ki
+bir Sah ile oynayacaksiniz.
+
+Her tasin kendine ozgu bir hareket bicimi vardir ve tum yakalama desenleri
+examples.txt dosyasinda ayrintili olarak verilmistir.
+
+Bir tas, yakalama deseni uzerinde buldugu yalnizca ilk dusman tasi
+yakalayabilir.
+
+Tahtanin boyutu degiskendir ancak her zaman kare kalacaktir. Yalnizca bir Sah
+vardir ve diger tum taslar ona karsidir. Taslar icin kullanilanlar disindaki
+tum karakterler bos kare sayilir.
+
+Sah, baska bir dusman tas onu yakalayabiliyorsa tehdit altinda sayilir. Bu
+durumda standart cikisa "Success" ve ardindan bir yeni satir yazacaksiniz,
+aksi halde "Fail" ve ardindan bir yeni satir yazacaksiniz.
+
+Hic arguman yoksa program yalnizca bir yeni satir yazacaktir.
+
+Ornekler:
+
+$> ./check_mate '..' '.K' | cat -e
+Fail$
+$> ./check_mate 'R...' '.K..' '..P.' '....' | cat -e
+Success$
+$> ./check_mate | cat -e
+$

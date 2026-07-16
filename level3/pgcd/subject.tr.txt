@@ -1,0 +1,19 @@
+Odev adi         : pgcd
+Beklenen dosyalar: pgcd.c
+Izin verilen fonk: printf, atoi, malloc, free
+--------------------------------------------------------------------------------
+
+Kesinlikle pozitif ve int'e sigan iki tam sayiyi temsil eden iki karakter
+dizisi alan bir program yaziniz.
+
+Bu iki sayinin en buyuk ortak bolenini, ardindan bir yeni satir ile yaziniz
+(bu her zaman kesinlikle pozitif bir tam sayidir).
+
+Parametre sayisi 2 degilse bir yeni satir yazilir.
+
+Ornekler:
+
+$> ./pgcd 42 12 | cat -e
+6$
+$> ./pgcd 17 3 | cat -e
+1$

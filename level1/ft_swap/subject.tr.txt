@@ -1,0 +1,11 @@
+Odev adi         : ft_swap
+Beklenen dosyalar: ft_swap.c
+Izin verilen fonk: 
+--------------------------------------------------------------------------------
+
+Adresleri parametre olarak verilen iki tam sayinin icerigini takas eden bir
+fonksiyon yaziniz.
+
+Fonksiyonunuz su sekilde tanimlanmalidir:
+
+void	ft_swap(int *a, int *b);

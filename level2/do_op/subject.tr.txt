@@ -1,0 +1,24 @@
+Odev adi         : do_op
+Beklenen dosyalar: *.c, *.h
+Izin verilen fonk: atoi, printf, write
+--------------------------------------------------------------------------------
+
+Uc karakter dizisi alan bir program yaziniz:
+- Birinci ve ucuncu, int'e sigan 10 tabanindaki isaretli tam sayilardir.
+- Ikinci ise su aritmetik operatorlerden biridir: + - * / %
+
+Program istenen aritmetik islemin sonucunu, ardindan bir yeni satir ile
+yazmalidir. Parametre sayisi 3 degilse sadece bir yeni satir yazilir.
+
+Girdilerin hatasiz ve fazladan karakter icermedigini varsayabilirsiniz.
+Negatif sayilarin basinda bir ve yalnizca bir '-' bulunur. Islemin sonucu
+int'e sigar.
+
+Ornekler:
+
+$> ./do_op "123" "*" 456 | cat -e
+56088$
+$> ./do_op "1" "+" "-43" | cat -e
+-42$
+$> ./do_op | cat -e
+$

@@ -1,0 +1,19 @@
+Odev adi         : aff_z
+Beklenen dosyalar: aff_z.c
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+Bir karakter dizisi alan ve icinde karsilastigi ilk 'z' karakterini, ardindan
+bir yeni satir ile birlikte ekrana yazan bir program yaziniz.
+
+Dizide hic 'z' karakteri yoksa program 'z' ve ardindan yeni satir yazar.
+Parametre sayisi 1 degilse program yine 'z' ve yeni satir yazar.
+
+Ornek:
+
+$> ./aff_z "abc" | cat -e
+z$
+$> ./aff_z "zaz sent le poney" | cat -e
+z$
+$> ./aff_z | cat -e
+z$

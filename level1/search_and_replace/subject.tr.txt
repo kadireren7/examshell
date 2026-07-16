@@ -1,0 +1,21 @@
+Odev adi         : search_and_replace
+Beklenen dosyalar: search_and_replace.c
+Izin verilen fonk: write, exit
+--------------------------------------------------------------------------------
+
+search_and_replace adinda, 3 arguman alan bir program yaziniz. Birinci arguman
+icinde bir harfin (2. arguman) baska bir harfle (3. arguman) degistirilecegi
+karakter dizisidir.
+
+Arguman sayisi 3 degilse sadece bir yeni satir yazilir.
+Ikinci arguman birincinin icinde gecmiyorsa program diziyi oldugu gibi,
+ardindan bir yeni satir ile yazar.
+
+Ornekler:
+
+$>./search_and_replace "Papache est un sabre" "a" "o"
+Popoche est un sobre
+$>./search_and_replace "zaz" "art" "zul" | cat -e
+$
+$>./search_and_replace "zaz" "r" "u" | cat -e
+zaz$

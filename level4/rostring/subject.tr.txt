@@ -1,0 +1,22 @@
+Odev adi         : rostring
+Beklenen dosyalar: rostring.c
+Izin verilen fonk: write, malloc, free
+--------------------------------------------------------------------------------
+
+Bir karakter dizisi alan ve bu diziyi bir kelime sola dondurerek ekrana yazan
+bir program yaziniz.
+
+Boylece ilk kelime sonuncu olur, digerleri ayni sirada kalir.
+
+"Kelime"; bosluk/tab karakterleri ya da dizinin basi/sonu ile sinirlanmis bir
+bolumdur.
+
+Ciktida kelimeler yalnizca bir bosluk ile ayrilacaktir.
+Birden az arguman varsa program \n yazar.
+
+Ornek:
+
+$>./rostring "Que la      lumiere soit et la lumiere fut"
+la lumiere soit et la lumiere fut Que
+$>./rostring "abc   " | cat -e
+abc$

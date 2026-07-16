@@ -1,0 +1,19 @@
+Odev adi         : rot_13
+Beklenen dosyalar: rot_13.c
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+Bir karakter dizisi alan ve her harfini alfabetik sirada 13 harf ilerideki
+harfle degistirerek ekrana yazan bir program yaziniz.
+
+'z' harfi 'm', 'Z' harfi 'M' olur. Buyuk/kucuk harf durumu degismez.
+
+Cikti bir yeni satir ile bitecektir.
+Arguman sayisi 1 degilse program sadece bir yeni satir yazar.
+
+Ornek:
+
+$>./rot_13 "abc"
+nop
+$>./rot_13 "My horse is Amazing." | cat -e
+Zl ubefr vf Nznmvat.$

@@ -1,0 +1,18 @@
+Odev adi         : rstr_capitalizer
+Beklenen dosyalar: rstr_capitalizer.c
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+Bir veya birkac karakter dizisi alan ve her arguman icin her kelimenin son
+karakterini (harf ise) buyuk, geri kalanini kucuk harfe cevirip sonucu
+ardindan bir \n ile ekrana yazan bir program yaziniz.
+
+Kelime; bosluk/tab karakterleri ya da dizinin basi/sonu ile sinirlanmis bir
+bolumdur. Bir kelime tek harften olusuyorsa buyuk yazilmalidir.
+
+Hic parametre yoksa \n yazilir.
+
+Ornek:
+
+$> ./rstr_capitalizer "Premier PETIT TesT" | cat -e
+premieR petiT tesT$

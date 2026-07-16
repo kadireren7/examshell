@@ -1,0 +1,10 @@
+Odev adi         : ft_strcpy
+Beklenen dosyalar: ft_strcpy.c
+Izin verilen fonk: 
+--------------------------------------------------------------------------------
+
+strcpy fonksiyonunun davranisini taklit ediniz (man strcpy).
+
+Fonksiyonunuz su sekilde tanimlanmalidir:
+
+char	*ft_strcpy(char *s1, char *s2);

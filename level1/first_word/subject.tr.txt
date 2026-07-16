@@ -1,0 +1,21 @@
+Odev adi         : first_word
+Beklenen dosyalar: first_word.c
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+Bir karakter dizisi alan ve onun ilk kelimesini, ardindan bir yeni satir ile
+ekrana yazan bir program yaziniz.
+
+Kelime; bosluk/tab karakterleri ya da dizinin basi/sonu ile sinirlanmis bir
+bolumdur.
+
+Parametre sayisi 1 degilse veya hic kelime yoksa sadece bir yeni satir yazilir.
+
+Ornekler:
+
+$> ./first_word "FOR PONY" | cat -e
+FOR$
+$> ./first_word "   " | cat -e
+$
+$> ./first_word "  lorem,ipsum  " | cat -e
+lorem,ipsum$

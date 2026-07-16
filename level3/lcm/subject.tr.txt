@@ -1,0 +1,26 @@
+Odev adi         : lcm
+Beklenen dosyalar: lcm.c
+Izin verilen fonk: 
+--------------------------------------------------------------------------------
+
+Parametre olarak iki unsigned int alan ve bunlarin EKOK'unu (en kucuk ortak
+kat) hesaplayip donduren bir fonksiyon yaziniz.
+
+Iki sifirdan farkli tam sayinin EKOK'u, her ikisine de tam bolunen en kucuk
+pozitif tam sayidir.
+
+EKOK iki sekilde hesaplanabilir:
+
+- Ortak bir kat (0 disinda) bulana kadar her sayinin katlarini hesaplayabilir,
+
+- ya da bu iki sayinin EBOB'unu kullanip su formulu uygulayabilirsiniz:
+
+	EKOK(x, y) = | x * y | / EBOB(x, y)
+
+  | x * y | ifadesi "x ile y carpiminin mutlak degeri" anlamina gelir.
+
+Sayilardan en az biri sifir ise EKOK 0'dir.
+
+Fonksiyonunuz su sekilde tanimlanmalidir:
+
+unsigned int lcm(unsigned int a, unsigned int b);

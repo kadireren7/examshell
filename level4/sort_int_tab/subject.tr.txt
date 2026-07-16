@@ -1,0 +1,14 @@
+Odev adi         : sort_int_tab
+Beklenen dosyalar: sort_int_tab.c
+Izin verilen fonk: 
+--------------------------------------------------------------------------------
+
+Asagidaki fonksiyonu yaziniz:
+
+void sort_int_tab(int *tab, unsigned int size);
+
+Fonksiyon, tam olarak 'size' eleman iceren 'tab' int dizisini yerinde
+(in-place) artan sirada siralamalidir.
+
+Tekrar eden degerler korunmalidir.
+Girdi her zaman tutarlidir.

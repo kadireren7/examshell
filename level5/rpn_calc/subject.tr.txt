@@ -1,0 +1,42 @@
+Odev adi         : rpn_calc
+Beklenen dosyalar: *.c, *.h
+Izin verilen fonk: atoi, printf, write, malloc, free
+--------------------------------------------------------------------------------
+
+Birinci argumani olarak Ters Lehce Notasyonu (RPN) ile yazilmis bir denklem
+iceren bir karakter dizisi alan, denklemi degerlendiren ve sonucu standart
+cikisa, ardindan bir yeni satir ile yazan bir program yaziniz.
+
+Ters Lehce Notasyonu, her operatorun tum operandlarindan sonra geldigi bir
+matematiksel gosterimdir. RPN'de karsilasilan her operator onceki 2 operandi
+degerlendirir ve bu islemin sonucu bir sonraki operator icin iki operanddan
+ilki olur. Operandlar ve operatorler en az bir bosluk ile ayrilmalidir.
+
+Su operatorleri gerceklemelisiniz: "+", "-", "*", "/" ve "%".
+
+Dizi gecerli degilse veya tam olarak bir arguman yoksa standart cikisa "Error"
+ve ardindan bir yeni satir yazmalisiniz.
+
+Verilen tum operandlar bir "int"e sigacaktir.
+
+RPN'ye cevrilmis formul ornekleri:
+
+3 + 4                   >>    3 4 +
+((1 * 2) * 3) - 4       >>    1 2 * 3 * 4 -  veya  3 1 2 * * 4 -
+50 * (5 - (10 / 9))     >>    5 10 9 / - 50 *
+
+Bir RPN formulu soyle degerlendirilir:
+
+1 2 * 3 * 4 -
+2 3 * 4 -
+6 4 -
+2
+
+Ornekler:
+
+$> ./rpn_calc "1 2 * 3 * 4 +" | cat -e
+10$
+$> ./rpn_calc "1 2 3 4 +" | cat -e
+Error$
+$> ./rpn_calc |cat -e
+Error$

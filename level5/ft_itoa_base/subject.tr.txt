@@ -1,0 +1,20 @@
+Odev adi         : ft_itoa_base
+Beklenen dosyalar: ft_itoa_base.c
+Izin verilen fonk: malloc
+--------------------------------------------------------------------------------
+
+Bir tam sayi degerini, belirtilen tabani kullanarak sonu null ile biten bir
+karakter dizisine donusturen ve sonucu kendinizin ayirmasi gereken bir char
+dizisinde saklayan bir fonksiyon yaziniz.
+
+Taban bir tam sayi olarak, 2'den 16'ya kadar ifade edilir. Tabani olusturan
+karakterler 0'dan 9'a rakamlar, ardindan A'dan F'ye buyuk harflerdir.
+
+Ornegin 4 tabani "0123", 16 tabani ise "0123456789ABCDEF" olurdu.
+
+Taban 10 ve deger negatif ise olusan dizinin basina bir eksi isareti (-)
+konur. Diger tum tabanlarda deger her zaman isaretsiz kabul edilir.
+
+Fonksiyonunuz su sekilde tanimlanmalidir:
+
+char	*ft_itoa_base(int value, int base);

@@ -1,0 +1,22 @@
+Odev adi         : add_prime_sum
+Beklenen dosyalar: add_prime_sum.c
+Izin verilen fonk: write, exit
+--------------------------------------------------------------------------------
+
+Arguman olarak pozitif bir tam sayi alan ve ona esit veya ondan kucuk tum asal
+sayilarin toplamini, ardindan bir yeni satir ile ekrana yazan bir program
+yaziniz.
+
+Arguman sayisi 1 degilse veya arguman pozitif bir sayi degilse sadece 0 ve
+ardindan bir yeni satir yazilir.
+
+Evet, ornekler dogrudur.
+
+Ornekler:
+
+$>./add_prime_sum 5
+10
+$>./add_prime_sum 7 | cat -e
+17$
+$>./add_prime_sum | cat -e
+0$

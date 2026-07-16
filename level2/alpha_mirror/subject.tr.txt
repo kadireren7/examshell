@@ -1,0 +1,20 @@
+Odev adi         : alpha_mirror
+Beklenen dosyalar: alpha_mirror.c
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+alpha_mirror adinda, bir karakter dizisi alan ve her alfabetik karakteri
+alfabedeki simetrigi ile degistirerek, ardindan bir yeni satir ile ekrana
+yazan bir program yaziniz.
+
+'a' -> 'z', 'Z' -> 'A', 'd' -> 'w', 'M' -> 'N' seklinde devam eder.
+Buyuk/kucuk harf durumu degismez.
+
+Arguman sayisi 1 degilse sadece bir yeni satir yazilir.
+
+Ornekler:
+
+$>./alpha_mirror "abc"
+zyx
+$>./alpha_mirror "My horse is Amazing." | cat -e
+Nb slihv rh Znzarmt.$

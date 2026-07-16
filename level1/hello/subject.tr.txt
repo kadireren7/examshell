@@ -1,0 +1,11 @@
+Odev adi         : hello
+Beklenen dosyalar: hello.c
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+"Hello World!" yazip ardindan bir \n koyan bir program yaziniz.
+
+Ornek:
+
+$>./hello | cat -e
+Hello World!$

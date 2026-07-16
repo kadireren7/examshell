@@ -1,0 +1,24 @@
+Odev adi         : ft_list_foreach
+Beklenen dosyalar: ft_list_foreach.c, ft_list.h
+Izin verilen fonk: 
+--------------------------------------------------------------------------------
+
+Bir liste ve bir fonksiyon isaretcisi alan ve bu fonksiyonu listenin her
+elemanina uygulayan bir fonksiyon yaziniz.
+
+Su sekilde tanimlanmalidir:
+
+void    ft_list_foreach(t_list *begin_list, void (*f)(void *));
+
+f'nin gosterdigi fonksiyon soyle kullanilacaktir:
+
+(*f)(list_ptr->data);
+
+Asagidaki yapiyi kullanmali ve onu ft_list.h adinda bir dosya olarak teslim
+etmelisiniz:
+
+typedef struct    s_list
+{
+    struct s_list *next;
+    void          *data;
+}                 t_list;

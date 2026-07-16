@@ -1,0 +1,6 @@
+Odev adi         : only_z
+Beklenen dosyalar: only_z.c
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+Standart cikisa bir 'z' karakteri yazan bir program yaziniz.

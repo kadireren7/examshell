@@ -1,0 +1,31 @@
+Odev adi         : brainfuck
+Beklenen dosyalar: *.c, *.h
+Izin verilen fonk: write, malloc, free
+--------------------------------------------------------------------------------
+
+Bir Brainfuck yorumlayici programi yaziniz.
+Kaynak kod birinci parametre olarak verilecektir.
+Kod her zaman gecerli olacak ve 4096 islemden fazla olmayacaktir.
+
+Brainfuck minimalist bir dildir. Sifira ilklendirilmis bir bayt dizisinden
+(bizim durumumuzda 2048 bayt diyelim) ve onun ilk baytina bir isaretciden
+olusur.
+
+Her operator tek bir karakterdir:
+- '>' isaretciyi bir artirir;
+- '<' isaretciyi bir azaltir;
+- '+' isaret edilen bayti bir artirir;
+- '-' isaret edilen bayti bir azaltir;
+- '.' isaret edilen bayti standart cikisa yazar;
+- '[' isaret edilen bayt 0 ise eslesen ']' karakterine atlar (dongu basi);
+- ']' isaret edilen bayt 0 degilse eslesen '[' karakterine atlar (dongu sonu).
+
+Diger tum karakterler yorumdur.
+
+Ornekler:
+
+$>./brainfuck "++++++++++[>+++++++>++++++++++>+++>+<<<<-]
+>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>." | cat -e
+Hello World!$
+$>./brainfuck | cat -e
+$

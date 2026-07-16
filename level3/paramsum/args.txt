@@ -1,0 +1,6 @@
+1 2 3 5 7 24
+6 12 24
+
+a
+1
+one two three four five six seven eight nine ten

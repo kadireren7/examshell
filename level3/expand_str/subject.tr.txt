@@ -1,0 +1,19 @@
+Odev adi         : expand_str
+Beklenen dosyalar: expand_str.c
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+Bir karakter dizisi alan ve onu her kelime arasinda tam olarak uc bosluk
+olacak, basinda ve sonunda bosluk veya tab bulunmayacak sekilde, ardindan bir
+yeni satir ile ekrana yazan bir program yaziniz.
+
+Kelime; bosluk/tab karakterleri ya da dizinin basi/sonu ile sinirlanmis bir
+bolumdur.
+
+Parametre sayisi 1 degilse veya hic kelime yoksa sadece bir yeni satir
+yazilir.
+
+Ornek:
+
+$> ./expand_str " seulement          la c'est      plus dur " | cat -e
+seulement   la   c'est   plus   dur$

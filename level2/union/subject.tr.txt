@@ -1,0 +1,19 @@
+Odev adi         : union
+Beklenen dosyalar: union.c
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+Iki karakter dizisi alan ve ikisinden herhangi birinde gecen karakterleri,
+tekrarsiz olarak ekrana yazan bir program yaziniz.
+
+Cikti, karakterlerin komut satirinda gorundukleri sirada olacak ve bir \n ile
+bitecektir.
+
+Arguman sayisi 2 degilse program sadece \n yazar.
+
+Ornek:
+
+$>./union zpadinton "paqefwtdjetyiytjneytjoeyjnejeyj" | cat -e
+zpadintoqefwjy$
+$>./union "rien" | cat -e
+$

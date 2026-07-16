@@ -1,0 +1,30 @@
+Odev adi         : moment
+Beklenen dosyalar: moment.c
+Izin verilen fonk: malloc, free
+--------------------------------------------------------------------------------
+
+Parametre olarak saniye cinsinden bir sure alan ve gecen saniye, dakika, saat,
+gun veya ay sayisini iceren bir karakter dizisi donduren bir fonksiyon
+olusturunuz. Bu fonksiyon aylarin 30 gun oldugunu varsayar ve arti yillari
+gormezden gelir.
+
+Bu dizinin bicimi soyle olacaktir:
+
+	xxx {second(s)|minute(s)|hour(s)|day(s)|month(s)} ago.
+
+Fonksiyonunuz mumkun olan en dusuk degeri dondurmelidir (asagidaki orneklerde
+gorulecegi gibi).
+
+Bu fonksiyonun prototipi soyle olacaktir:
+
+	char    *moment(unsigned int duration)
+
+Ornekler:
+
+moment(0)       => 0 seconds ago.
+moment(1)       => 1 second ago.
+moment(30)      => 30 seconds ago.
+moment(65)      => 1 minute ago.
+moment(120)     => 2 minutes ago.
+moment(2400)    => 40 minutes ago.
+moment(3735)    => 1 hour ago.

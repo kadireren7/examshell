@@ -1,0 +1,20 @@
+Odev adi         : repeat_alpha
+Beklenen dosyalar: repeat_alpha.c
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+repeat_alpha adinda, bir karakter dizisi alan ve her alfabetik karakteri
+alfabedeki sira numarasi kadar tekrarlayarak, ardindan bir yeni satir ile
+ekrana yazan bir program yaziniz.
+
+'a' -> 'a', 'b' -> 'bb', 'e' -> 'eeeee' seklinde devam eder.
+Buyuk/kucuk harf durumu degismez.
+
+Arguman sayisi 1 degilse sadece bir yeni satir yazilir.
+
+Ornekler:
+
+$>./repeat_alpha "abc"
+abbccc
+$>./repeat_alpha 'abacadaba 42!' | cat -e
+abbacccaddddabba 42!$

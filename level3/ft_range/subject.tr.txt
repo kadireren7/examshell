@@ -1,0 +1,19 @@
+Odev adi         : ft_range
+Beklenen dosyalar: ft_range.c
+Izin verilen fonk: malloc
+--------------------------------------------------------------------------------
+
+Asagidaki fonksiyonu yaziniz:
+
+int     *ft_range(int start, int end);
+
+Fonksiyon malloc() ile bir tam sayi dizisi ayirmali, bu diziyi start'tan
+baslayip end'de biten ardisik degerlerle doldurmali (start ve end dahil!) ve
+dizinin ilk elemanina bir isaretci dondurmelidir.
+
+Ornekler:
+
+- (1, 3) ile 1, 2 ve 3 iceren bir dizi dondurursunuz.
+- (-1, 2) ile -1, 0, 1 ve 2 iceren bir dizi dondurursunuz.
+- (0, 0) ile 0 iceren bir dizi dondurursunuz.
+- (0, -3) ile 0, -1, -2 ve -3 iceren bir dizi dondurursunuz.

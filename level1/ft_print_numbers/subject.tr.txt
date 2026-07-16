@@ -1,0 +1,10 @@
+Odev adi         : ft_print_numbers
+Beklenen dosyalar: ft_print_numbers.c
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+Tum rakamlari artan sirada ekrana yazan bir fonksiyon yaziniz.
+
+Fonksiyonunuz su sekilde tanimlanmalidir:
+
+void	ft_print_numbers(void);

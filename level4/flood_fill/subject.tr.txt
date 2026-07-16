@@ -1,0 +1,29 @@
+Odev adi         : flood_fill
+Beklenen dosyalar: *.c, *.h
+Izin verilen fonk: -
+--------------------------------------------------------------------------------
+
+char ** tipinde iki boyutlu bir char dizisi, bu dizinin boyutlarini veren bir
+t_point ve baslangic noktasini veren bir t_point alan bir fonksiyon yaziniz.
+
+Verilen 'begin' noktasindan baslayarak bu fonksiyon, icindeki karakterleri 'F'
+karakteri ile degistirerek tum bir bolgeyi 'boyar'. Bir bolge, yatay ve dikey
+olarak baska karakterlerle sinirlanmis, ayni karakterden olusan bir kumedir.
+
+flood_fill fonksiyonu capraz boyama yapmaz.
+
+flood_fill fonksiyonu soyle prototiplenecektir:
+  void  flood_fill(char **tab, t_point size, t_point begin);
+
+t_point yapisi bu odeve ekli "t_point.h" dosyasinda bulunur.
+Degerlendirmede kendi "t_point.h" dosyamizi kullanacagiz.
+
+Ornek:
+
+	11111111            11111111
+	10001001            1FFF1001
+	10010001    ->      1FF10001
+	10110001            1F110001
+	11100001            11100001
+
+	(begin = { 2, 2 })

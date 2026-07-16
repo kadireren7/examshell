@@ -1,0 +1,25 @@
+Odev adi         : fizzbuzz
+Beklenen dosyalar: fizzbuzz.c
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+1'den 100'e kadar olan sayilari, her birini bir yeni satir ile ayirarak ekrana
+yazan bir program yaziniz.
+
+Sayi 3'un kati ise bunun yerine 'fizz' yazar.
+Sayi 5'in kati ise bunun yerine 'buzz' yazar.
+Sayi hem 3'un hem 5'in kati ise bunun yerine 'fizzbuzz' yazar.
+
+Ornek:
+
+$>./fizzbuzz
+1
+2
+fizz
+4
+buzz
+fizz
+[...]
+14
+fizzbuzz
+[...]

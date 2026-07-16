@@ -1,0 +1,19 @@
+Odev adi         : tab_mult
+Beklenen dosyalar: tab_mult.c
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+Bir sayinin carpim tablosunu ekrana yazan bir program yaziniz.
+
+Parametre her zaman int'e sigan, kesinlikle pozitif bir sayi olacaktir ve bu
+sayinin 9 kati da int'e sigacaktir.
+
+Hic parametre yoksa program bir \n yazar.
+
+Ornek:
+
+$>./tab_mult 9
+1 x 9 = 9
+2 x 9 = 18
+[...]
+9 x 9 = 81

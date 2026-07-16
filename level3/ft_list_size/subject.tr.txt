@@ -1,0 +1,20 @@
+Odev adi         : ft_list_size
+Beklenen dosyalar: ft_list_size.c, ft_list.h
+Izin verilen fonk: 
+--------------------------------------------------------------------------------
+
+Kendisine verilen bagli listedeki eleman sayisini donduren bir fonksiyon
+yaziniz.
+
+Su sekilde tanimlanmalidir:
+
+int	ft_list_size(t_list *begin_list);
+
+Asagidaki yapiyi kullanmali ve onu ft_list.h adinda bir dosya olarak teslim
+etmelisiniz:
+
+typedef struct    s_list
+{
+    struct s_list *next;
+    void          *data;
+}                 t_list;

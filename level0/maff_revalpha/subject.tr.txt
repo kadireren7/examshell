@@ -1,0 +1,12 @@
+Odev adi         : maff_revalpha
+Beklenen dosyalar: maff_revalpha.c
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+Alfabeyi ters sirada, cift sirali harfleri buyuk ve tek sirali harfleri kucuk
+olacak sekilde, ardindan bir yeni satir ile ekrana yazan bir program yaziniz.
+
+Ornek:
+
+$> ./maff_revalpha | cat -e
+zYxWvUtSrQpOnMlKjIhGfEdCbA$

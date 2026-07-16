@@ -1,0 +1,12 @@
+Odev adi         : maff_alpha
+Beklenen dosyalar: maff_alpha.c
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+Alfabeyi, cift sirali harfleri buyuk, tek sirali harfleri kucuk olacak sekilde
+ve ardindan bir yeni satir ile ekrana yazan bir program yaziniz.
+
+Ornek:
+
+$> ./maff_alpha | cat -e
+aBcDeFgHiJkLmNoPqRsTuVwXyZ$

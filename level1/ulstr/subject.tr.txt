@@ -1,0 +1,17 @@
+Odev adi         : ulstr
+Beklenen dosyalar: ulstr.c
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+Bir karakter dizisi alan ve tum harflerinin buyuk/kucuk durumunu tersine
+ceviren bir program yaziniz. Diger karakterler degismez.
+
+Sonucu bir '\n' ile birlikte yazmalisiniz.
+Arguman sayisi 1 degilse program sadece '\n' yazar.
+
+Ornek:
+
+$>./ulstr "3:21 Ba  tOut  moUn ki Ka di KE m'en Ka fe fot" | cat -e
+3:21 bA  ToUT  MOuN KI kA DI ke M'EN kA FE FOT$
+$>./ulstr | cat -e
+$

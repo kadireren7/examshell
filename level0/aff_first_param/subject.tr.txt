@@ -1,0 +1,16 @@
+Odev adi         : aff_first_param
+Beklenen dosyalar: aff_first_param.c
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+Parametre olarak karakter dizileri alan ve ilk argumanini ardindan bir \n ile
+ekrana yazan bir program yaziniz.
+
+Arguman sayisi 1'den az ise program sadece \n yazar.
+
+Ornek:
+
+$> ./aff_first_param vincent mit "l'ane" dans un pre | cat -e
+vincent$
+$> ./aff_first_param | cat -e
+$

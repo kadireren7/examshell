@@ -1,0 +1,16 @@
+Odev adi         : aff_last_param
+Beklenen dosyalar: aff_last_param.c
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+Parametre olarak karakter dizileri alan ve son argumanini ardindan bir yeni
+satir ile ekrana yazan bir program yaziniz.
+
+Arguman sayisi 1'den az ise program sadece bir yeni satir yazar.
+
+Ornek:
+
+$> ./aff_last_param "zaz" "mange" "des" "chats" | cat -e
+chats$
+$> ./aff_last_param | cat -e
+$

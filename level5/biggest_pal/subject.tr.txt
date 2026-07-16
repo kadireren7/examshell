@@ -1,0 +1,27 @@
+Odev adi         : biggest_pal
+Beklenen dosyalar: *.c, *.h
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+biggest_pal adinda, arguman olarak bir karakter dizisi alan ve bu dizinin
+icindeki en buyuk palindromu, ardindan bir yeni satir ile yazan bir program
+yaziniz.
+
+Bu dizi yalnizca kucuk harfler icerir.
+
+Ayni uzunlukta iki palindrom varsa sonuncusunu yazmalisiniz.
+
+1'den fazla veya az arguman varsa programiniz sadece bir yeni satir
+yazmalidir.
+
+Ornekler:
+
+$> biggest_pal "abcba"
+abcba
+$> biggest_pal "aaaaaaaaaabbcbbaaaa"
+aaaabbcbbaaaa
+$> biggest_pal "aeibaabaammaabaalek"
+aabaammaabaa
+$> biggest_pal
+
+$>

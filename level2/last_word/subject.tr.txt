@@ -1,0 +1,19 @@
+Odev adi         : last_word
+Beklenen dosyalar: last_word.c
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+Bir karakter dizisi alan ve son kelimesini ardindan bir \n ile ekrana yazan
+bir program yaziniz.
+
+Kelime; bosluk/tab karakterleri ya da dizinin basi/sonu ile sinirlanmis bir
+bolumdur.
+
+Parametre sayisi 1 degilse veya hic kelime yoksa bir yeni satir yazilir.
+
+Ornek:
+
+$> ./last_word "FOR PONY" | cat -e
+PONY$
+$> ./last_word "   " | cat -e
+$

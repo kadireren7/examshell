@@ -1,0 +1,23 @@
+Odev adi         : ft_list_remove_if
+Beklenen dosyalar: ft_list_remove_if.c
+Izin verilen fonk: free
+--------------------------------------------------------------------------------
+
+ft_list_remove_if adinda, verilen listeden verisi referans verisine "esit"
+olan tum elemanlari cikaran bir fonksiyon yaziniz.
+
+Su sekilde tanimlanacaktir:
+
+void ft_list_remove_if(t_list **begin_list, void *data_ref, int (*cmp)());
+
+cmp iki void* alir ve iki parametre esit oldugunda 0 dondurur.
+
+Icerigi asagidaki gibi olan ft_list.h dosyasini kullanmalisiniz:
+
+$>cat ft_list.h
+typedef struct      s_list
+{
+    struct s_list   *next;
+    void            *data;
+}                   t_list;
+$>

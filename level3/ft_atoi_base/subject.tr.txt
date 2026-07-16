@@ -1,0 +1,19 @@
+Odev adi         : ft_atoi_base
+Beklenen dosyalar: ft_atoi_base.c
+Izin verilen fonk: None
+--------------------------------------------------------------------------------
+
+str karakter dizisi argumanini (N <= 16 tabaninda) 10 tabaninda bir tam sayiya
+donusturup donduren bir fonksiyon yaziniz.
+
+Girdide taninan karakterler sunlardir: 0123456789abcdef
+Bunlar elbette istenen tabana gore kirpilacaktir. Ornegin 4 tabani "0123",
+16 tabani ise "0123456789abcdef" karakterlerini tanir.
+
+Buyuk harfler de taninmalidir: "12fdb3" ile "12FDB3" aynidir.
+
+Eksi isareti ('-') yalnizca dizinin ilk karakteri ise dikkate alinir.
+
+Fonksiyonunuz su sekilde tanimlanmalidir:
+
+int	ft_atoi_base(const char *str, int str_base);

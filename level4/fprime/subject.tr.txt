@@ -1,0 +1,24 @@
+Odev adi         : fprime
+Beklenen dosyalar: fprime.c
+Izin verilen fonk: printf, atoi
+--------------------------------------------------------------------------------
+
+Pozitif bir int alan ve onun asal carpanlarini standart cikisa, ardindan bir
+yeni satir ile yazan bir program yaziniz.
+
+Carpanlar artan sirada ve '*' ile ayrilmis olarak yazilmalidir, oyle ki
+ciktidaki ifade dogru sonucu versin.
+
+Parametre sayisi 1 degilse sadece bir yeni satir yazilir.
+Girdi verildiginde her zaman gecerli olacaktir.
+
+Ornekler:
+
+$> ./fprime 225225 | cat -e
+3*3*5*5*7*11*13$
+$> ./fprime 9539 | cat -e
+9539$
+$> ./fprime 42 | cat -e
+2*3*7$
+$> ./fprime 1 | cat -e
+1$

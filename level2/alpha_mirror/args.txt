@@ -1,0 +1,7 @@
+"abc"
+"My horse is Amazing."
+
+""
+"a" "b"
+"zyxZYX"
+"AzB 42!"

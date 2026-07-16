@@ -1,0 +1,18 @@
+Odev adi         : str_capitalizer
+Beklenen dosyalar: str_capitalizer.c
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+Bir veya birkac karakter dizisi alan ve her arguman icin her kelimenin ilk
+karakterini (tabii ki harf ise) buyuk, geri kalanini kucuk harfe cevirip
+sonucu standart cikisa, ardindan bir \n ile yazan bir program yaziniz.
+
+"Kelime"; bosluk/tab karakterleri ya da dizinin basi/sonu ile sinirlanmis bir
+bolumdur. Bir kelime tek harften olusuyorsa buyuk yazilmalidir.
+
+Hic arguman yoksa program bir \n yazmalidir.
+
+Ornek:
+
+$> ./str_capitalizer "Premier PETIT TesT" | cat -e
+Premier Petit Test$

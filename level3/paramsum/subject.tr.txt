@@ -1,0 +1,16 @@
+Odev adi         : paramsum
+Beklenen dosyalar: paramsum.c
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+Kendisine verilen arguman sayisini, ardindan bir yeni satir ile ekrana yazan
+bir program yaziniz.
+
+Hic arguman yoksa sadece 0 ve ardindan bir yeni satir yazilir.
+
+Ornek:
+
+$>./paramsum 1 2 3 5 7 24
+6
+$>./paramsum | cat -e
+0$

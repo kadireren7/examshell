@@ -1,0 +1,21 @@
+Odev adi         : aff_a
+Beklenen dosyalar: aff_a.c
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+Bir karakter dizisi alan ve icinde karsilastigi ilk 'a' karakterini, ardindan
+bir yeni satir ile birlikte ekrana yazan bir program yaziniz.
+
+Dizide hic 'a' karakteri yoksa program sadece bir yeni satir yazar.
+Parametre sayisi 1 degilse program 'a' ve ardindan yeni satir yazar.
+
+Ornek:
+
+$> ./aff_a "abc" | cat -e
+a$
+$> ./aff_a "dubO a POIL" | cat -e
+a$
+$> ./aff_a "zz sent le poney" | cat -e
+$
+$> ./aff_a | cat -e
+a$

@@ -1,0 +1,17 @@
+Odev adi         : print_hex
+Beklenen dosyalar: print_hex.c
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+10 tabaninda ifade edilmis pozitif (veya sifir) bir sayi alan ve onu 16
+tabaninda (kucuk harflerle), ardindan bir yeni satir ile ekrana yazan bir
+program yaziniz.
+
+Parametre sayisi 1 degilse program sadece bir yeni satir yazar.
+
+Ornekler:
+
+$> ./print_hex "255" | cat -e
+ff$
+$> ./print_hex "5156454" | cat -e
+4eae66$

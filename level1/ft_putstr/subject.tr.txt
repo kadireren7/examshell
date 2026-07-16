@@ -1,0 +1,12 @@
+Odev adi         : ft_putstr
+Beklenen dosyalar: ft_putstr.c
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+Standart cikisa bir karakter dizisi yazan bir fonksiyon yaziniz.
+
+Fonksiyona verilen isaretci, dizinin ilk karakterinin adresini icerir.
+
+Fonksiyonunuz su sekilde tanimlanmalidir:
+
+void	ft_putstr(char *str);

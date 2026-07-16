@@ -1,0 +1,10 @@
+Odev adi         : ft_strcmp
+Beklenen dosyalar: ft_strcmp.c
+Izin verilen fonk: 
+--------------------------------------------------------------------------------
+
+strcmp fonksiyonunun davranisini taklit ediniz (man strcmp).
+
+Fonksiyonunuz su sekilde tanimlanmalidir:
+
+int	ft_strcmp(char *s1, char *s2);

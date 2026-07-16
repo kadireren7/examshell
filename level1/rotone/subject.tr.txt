@@ -1,0 +1,19 @@
+Odev adi         : rotone
+Beklenen dosyalar: rotone.c
+Izin verilen fonk: write
+--------------------------------------------------------------------------------
+
+Bir karakter dizisi alan ve her harfini alfabetik sirada bir sonraki harfle
+degistirerek ekrana yazan bir program yaziniz.
+
+'z' harfi 'a', 'Z' harfi 'A' olur. Buyuk/kucuk harf durumu degismez.
+
+Cikti bir \n ile bitecektir.
+Arguman sayisi 1 degilse program sadece \n yazar.
+
+Ornek:
+
+$>./rotone "abc"
+bcd
+$>./rotone "AkjhZ zLKIJz , 23y " | cat -e
+BlkiA aMLJKa , 23z $

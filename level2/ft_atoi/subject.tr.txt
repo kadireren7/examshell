@@ -1,0 +1,13 @@
+Odev adi         : ft_atoi
+Beklenen dosyalar: ft_atoi.c
+Izin verilen fonk: None
+--------------------------------------------------------------------------------
+
+str karakter dizisi argumanini bir tam sayiya (int tipi) donusturup donduren
+bir fonksiyon yaziniz.
+
+Standart atoi(const char *str) fonksiyonu gibi calisir, man sayfasina bakiniz.
+
+Fonksiyonunuz su sekilde tanimlanmalidir:
+
+int	ft_atoi(const char *str);

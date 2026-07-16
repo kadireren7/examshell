@@ -1,0 +1,13 @@
+Odev adi         : is_power_of_2
+Beklenen dosyalar: is_power_of_2.c
+Izin verilen fonk: None
+--------------------------------------------------------------------------------
+
+Verilen bir sayinin 2'nin kuvveti olup olmadigini belirleyen bir fonksiyon
+yaziniz.
+
+Bu fonksiyon sayi 2'nin kuvveti ise 1, degilse 0 dondurur.
+
+Fonksiyonunuz su sekilde tanimlanmalidir:
+
+int	is_power_of_2(unsigned int n);
